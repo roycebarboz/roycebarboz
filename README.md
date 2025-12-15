@@ -1,6 +1,7 @@
 # Hello there, welcome to Royce Barboz's GitHub
 
 I enjoy building scalable GenAI systems with built-in observability and a focus on production reliability.
+
 **Email:** roycebarboz@gmail.com
 **LinkedIn:** https://www.linkedin.com/in/royce-barboz/
 
