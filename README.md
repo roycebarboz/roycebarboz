@@ -23,5 +23,5 @@ I enjoy building scalable GenAI systems with built-in observability and a focus 
 
 #### [F1 Telemetry Dashboard](https://github.com/backdoor-boys/f1-vision-dashboard)
 *Real-time observability platform for F1 race data.*
-- •	Containerized full-stack telemetry dashboard (React/TypeScript frontend, Python API backend) using Docker and deployed services on AWS ECS (Fargate) behind an Application Load Balancer.
+- Containerized full-stack telemetry dashboard (React/TypeScript frontend, Python API backend) using Docker and deployed services on AWS ECS (Fargate) behind an Application Load Balancer.
 - Integrated observability with Datadog and CloudWatch for metrics, logs, and alerts, enabling runtime performance monitoring and failure diagnosis.
