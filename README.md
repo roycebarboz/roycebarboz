@@ -1,11 +1,23 @@
 # Hello there, welcome to Royce Barboz's GitHub
 
-I enjoy building scalable GenAI systems with built-in observability and a focus on production reliability.
+I enjoy building scalable systems with built-in observability and a focus on production reliability.
 
 ## Contact Info:
 **Email:** roycebarboz@gmail.com.
 **LinkedIn:** https://www.linkedin.com/in/royce-barboz/
 
+#### [Internal Events Notes Automation](https://github.com/roycebarboz/Internal_notes_Automation)
+*Automation tool developed while working as a Student Technology Support Assistant at Stevens Institute of Technology.*
+
+- Built a Python automation system that generates **Internal Event Notes** from Coursedog CSV exports.
+- Reduced manual event-note preparation time by **~80%** (from ~10–15 minutes per event to under 2 minutes).
+- Automated processing for **50+ events per week**, eliminating repetitive manual formatting work.
+- Implemented rule-based scheduling logic for setup and breakdown times, handling complex cases such as weekend events and back-to-back bookings.
+- Developed **test cases using real event datasets** to validate scheduling rules and ensure correct output formatting.
+- Verified edge cases such as **early-morning events, weekend setups, TechFlex room merging, and invalid account numbers**.
+- Improved reliability by detecting missing or incorrect input fields before generating notes.
+
+Technologies: **Python, CSV Processing, Automation Scripts, Testing**
 
 ### Projects
 
