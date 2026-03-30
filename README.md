@@ -6,18 +6,23 @@ I enjoy building scalable systems with built-in observability and a focus on pro
 **Email:** roycebarboz@gmail.com.
 **LinkedIn:** https://www.linkedin.com/in/royce-barboz/
 
-#### [Internal Events Notes Automation](https://github.com/roycebarboz/Internal_notes_Automation)
+### Experience
+
+#### [Coursedog Internal Events Notes generator](https://github.com/roycebarboz/coursedog-internal_notes_generator)
 *Automation tool developed while working as a Student Technology Support Assistant at Stevens Institute of Technology.*
 
-- Built a Python automation system that generates **Internal Event Notes** from Coursedog CSV exports.
-- Reduced manual event-note preparation time by **~80%** (from ~10–15 minutes per event to under 2 minutes).
-- Automated processing for **50+ events per week**, eliminating repetitive manual formatting work.
-- Implemented rule-based scheduling logic for setup and breakdown times, handling complex cases such as weekend events and back-to-back bookings.
-- Developed **test cases using real event datasets** to validate scheduling rules and ensure correct output formatting.
-- Verified edge cases such as **early-morning events, weekend setups, TechFlex room merging, and invalid account numbers**.
-- Improved reliability by detecting missing or incorrect input fields before generating notes.
+- Built a full-stack automation tool using Claude Code, parsing Coursedog CSV exports, applying 15+ scheduling logic cases, and submitting formatted event notes via authenticated REST API, streamlining workflows and cutting a multi-hour weekly process to minutes.
+- Architected end-to-end pipeline (CSV --> parse --> group --> API fetch --> generate --> review --> submit) with Next.js App Router, session-based state, and 200+ venue code mapping; developed with Claude Code, stateless architecture
+-	Wrote PowerShell scripts automating workspace initialization — launching directories, tools, and 10+ preconfigured browser sessions, reducing setup time by ~80%
 
-Technologies: **Python, CSV Processing, Automation Scripts, Testing**
+#### [React/Vite + Firebase web app](https://github.com/IGSCF/IGSCF_website)
+*Website for IGSCF Non-Profit Organization.*
+
+-	Developed and delivered a production React/Vite web app from scratch for a nonprofit, gathering stakeholder input and translating it into shipped features, resulting in 20% increase in user engagement using Claude Code.
+-	Integrated Firebase Auth + Firestore with RBAC and security rules (public reads, authenticated writes), owning full auth architecture end-to-end
+-	Created comprehensive documentation for all developed tools and scripts, ensuring maintainability and knowledge transfer across the team.
+-	Shipped CI/CD via Git/GitHub Actions with asset optimization, including automated testing and deployment workflows; met Lighthouse performance targets pre-launch.
+
 
 ### Projects
 
