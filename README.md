@@ -3,42 +3,69 @@
 I enjoy building scalable systems with built-in observability and a focus on production reliability.
 
 ## Contact Info:
-**Email:** roycebarboz@gmail.com.
+**Email:** roycebarboz@gmail.com
 **LinkedIn:** https://www.linkedin.com/in/royce-barboz/
+
+---
 
 ### Experience
 
-#### [Coursedog Internal Events Notes generator](https://github.com/roycebarboz/coursedog-internal_notes_generator)
-*Automation tool developed while working as a Student Technology Support Assistant at Stevens Institute of Technology.*
+#### [Stevens Institute of Technology](https://github.com/roycebarboz/coursedog-internal_notes_generator) — Technology Support
+*Hoboken, NJ, USA | May 2025 – Present*
 
-- Built a full-stack automation tool using Claude Code, parsing Coursedog CSV exports, applying 15+ scheduling logic cases, and submitting formatted event notes via authenticated REST API, streamlining workflows and cutting a multi-hour weekly process to minutes.
-- Architected end-to-end pipeline (CSV --> parse --> group --> API fetch --> generate --> review --> submit) with Next.js App Router, session-based state, and 200+ venue code mapping; developed with Claude Code, stateless architecture
--	Wrote PowerShell scripts automating workspace initialization — launching directories, tools, and 10+ preconfigured browser sessions, reducing setup time by ~80%
+- Built a full-stack automation tool using Claude Code that parsed Coursedog CSV exports, applied 15+ scheduling logic cases, and submitted formatted event notes via authenticated REST APIs in Python — cutting a multi-hour weekly process to minutes, with unit testing and peer review workflows.
+- Automated workspace initialization by writing Python and PowerShell scripts that launched directories, tools, and 10+ preconfigured browser sessions, reducing setup time by ~80%.
+- Collaborated with cross-functional teams in an Agile environment, participating in daily stand-ups, sprint planning, and retrospectives to deliver high-quality software.
+- Created comprehensive documentation for all automation tools and scripts, reducing onboarding time for new team members by ~70%.
 
-#### [React/Vite + Firebase web app](https://github.com/IGSCF/IGSCF_website)
-*Website for IGSCF Non-Profit Organization.*
+#### [IGSCF](https://github.com/IGSCF/IGSCF_website) — Full-Stack Developer (Freelance)
+*Hoboken, NJ, USA | Feb 2026 – Present*
 
--	Developed and delivered a production React/Vite web app from scratch for a nonprofit, gathering stakeholder input and translating it into shipped features, resulting in 20% increase in user engagement using Claude Code.
--	Integrated Firebase Auth + Firestore with RBAC and security rules (public reads, authenticated writes), owning full auth architecture end-to-end
--	Created comprehensive documentation for all developed tools and scripts, ensuring maintainability and knowledge transfer across the team.
--	Shipped CI/CD via Git/GitHub Actions with asset optimization, including automated testing and deployment workflows; met Lighthouse performance targets pre-launch.
+- Gathered stakeholder input and translated it into shipped features for a nonprofit, providing technical consulting on a production React/Vite web app — resulting in a 20% increase in user engagement using Claude Code.
+- Integrated Firebase Auth + Firestore with RBAC and security rules (public reads, authenticated writes), owning full auth architecture end-to-end.
+- Shipped CI/CD via Git/GitHub Actions with asset optimization, automated testing, and deployment workflows in JavaScript; met Lighthouse performance targets pre-launch with robust version control.
 
+---
 
 ### Projects
 
 #### [Financial RAG Analyst](https://github.com/sarthakk-3107/rag_analyst)
-*A Multi-Agent System for financial risk and compliance.*
-- Engineered a multi-agent workflow increasing task accuracy by **40%**.
-- Optimized embedding pipelines using **OpenAI text-embedding-3-small**, reducing infrastructure costs.
-- Implemented caching to lower query latency from **30s to <2s**.
+*Multi-Agent System for financial risk and compliance | Python, OpenAI, RAG — Nov 2025*
+
+- Designed and developed a multi-agent automation workflow (financial, risk, compliance agents) using structured function-calling, increasing task accuracy and automated coverage by ~40%, while adhering to cybersecurity best practices and MLOps principles.
+- Implemented document caching for SEC filings, reducing redundant LLM embedding calls by 90% and cutting query latency from 30s+ to under 2s using RAG principles.
 
 #### [Inspectify - NYC Health Dashboard](https://github.com/roycebarboz/NYC-Restaurant-Health-Inspector-Dashboard)
-*Scalable ETL pipeline and dashboard for restaurant health inspections.*
-- Processed **289K+ records** using a robust Node.js ETL pipeline.
-- Improved query performance by **60%** through optimized MongoDB indexing.
-- Designed a modular data layer for seamless API integration.
+*Scalable ETL pipeline and dashboard for restaurant health inspections | Node.js, MongoDB, Express.js — Dec 2025*
 
-#### [F1 Telemetry Dashboard](https://github.com/backdoor-boys/f1-vision-dashboard)
-*Real-time observability platform for F1 race data.*
-- Containerized full-stack telemetry dashboard (React/TypeScript frontend, Python API backend) using Docker and deployed services on AWS ECS (Fargate) behind an Application Load Balancer.
-- Integrated observability with Datadog and CloudWatch for metrics, logs, and alerts, enabling runtime performance monitoring and failure diagnosis.
+- Built a scalable ETL pipeline in Node.js to process 289K+ CSV rows into structured MongoDB documents, grouping inspection records by CAMIS and extracting latest health grades for NYC restaurant data.
+- Developed a modular data layer separating parsing, grouping, and DB operations, enabling clean integration with Express API routes for the full-stack team and generating HTML reports for stakeholders.
+
+---
+
+### Education
+
+**Stevens Institute of Technology** — M.S., Computer Science *(May 2026)*
+Hoboken, NJ, USA
+
+**St. Francis Institute of Technology** — B.E., Information Technology *(Jun 2024)*
+Mumbai, MH, India
+
+---
+
+### Technical Skills
+
+| Category | Skills |
+|---|---|
+| **Generative AI** | OpenAI, Claude Code, RAG, Embeddings, Multi-agent systems, n8n, LangGraph, Prompt Engineering |
+| **Languages** | JavaScript, Python, TypeScript, SQL, Bash, Golang |
+| **Frameworks & Libraries** | React.js, Node.js, Express.js, Next.js, FastAPI, REST APIs |
+| **Cloud & DevOps** | AWS (EKS, ECS), Docker, GitHub Actions, Kubernetes, Azure, GCP |
+| **Databases** | PostgreSQL, MySQL, MongoDB, Supabase |
+| **Tools** | Git, Linux/SSH, Agile (Scrum, Kanban), Postman, Microsoft Office, Google Workspace |
+
+---
+
+### Certifications
+
+- **Oracle Cloud Infrastructure Generative AI Professional** — Aug 2024
